@@ -116,3 +116,4 @@ The list of alleles used in the multiple sequence alignment is available in the 
 | `-s` or `--pseudoseqs` | Provide a CSV mapping MHC-I alleles to their one-hot encoded representation. |
 | `-l` or `--lr` | Set the learning rate for the AdamW optimizer (only for `train.py`). |
 | `-e` or `--epochs` | Specify the number of epochs for training (only for `train.py`). |
+
