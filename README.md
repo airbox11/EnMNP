@@ -15,15 +15,14 @@
 
 # EnMNP: A Deep Learning Tool for MHC-I (Neo)epitope Prediction and Immunogenicity
 
-EnMNP is a state-of-the-art deep learning tool designed for predicting the presentation of MHC-I (neo)epitopes and evaluating their immunogenicity. By leveraging advanced neural network models, EnMNP supports research into immune responses and the development of immunotherapies.
+EnMNP is a state-of-the-art deep learning tool designed for predicting the presentation of MHC-I (neo)epitopes and evaluating their immunogenicity. 
 
-The tool is OS-agnostic and does not require GPU acceleration for execution.
+EnMNP (Ensembled Multi-Factor Neoepitope Predictor), a machine learning-based neoepitope predictor. By leveraging transfer learning and creating an architecture that combines a powerful self-attention mechanism-based core model on protein sequences with an ensemble of diverse weak learners focused on various neoepitope-related characteristics, EnMNP achieves enhanced predictive accuracy and sensitivity for neoepitope prediction.
 
-While training models with large batch sizes (e.g., 32,768) demands considerable GPU memory (approximately 94 GB), transfer learning can be effectively performed with minimal GPU resources and can even be conducted on a CPU.
+By leveraging advanced neural network models, EnMNP supports research into immune responses and the development of immunotherapies.
 
-EnMNP has been tested on Debian 11, running Linux 5.10.0-19-amd64, AMD EPYC 7443P, and four RTX 3090 GPUs.
 
-Below is the list of software dependencies used during testing (the versions used in the paper are in parentheses).
+Below is the list of software dependencies used during testing.
 
 ### Required Dependencies
 
