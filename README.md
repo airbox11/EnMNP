@@ -13,11 +13,9 @@
 
 
 
-# EnMNP: A Deep Learning predictor for MHC-I (Neo)epitope Prediction
+# EnMNP: A Deep Learning-based predictor for MHC-I Neoepitope Prediction
 
 EnMNP (Ensembled Multi-Factor Neoepitope Predictor) is a state-of-the-art machine learning-based neoepitope predictor for predicting the presentation of MHC-I (neo)epitopes and evaluating their immunogenicity. By leveraging transfer learning and creating an architecture that combines a powerful self-attention mechanism-based core model on protein sequences with an ensemble of diverse weak learners focused on various neoepitope-related characteristics, EnMNP achieves enhanced predictive accuracy and sensitivity for neoepitope prediction.
-
-By utilizing advanced neural network models, EnMNP facilitates research on immune responses and contributes to the development of innovative immunotherapies.
 
 Below is the list of software dependencies used during testing.
 
